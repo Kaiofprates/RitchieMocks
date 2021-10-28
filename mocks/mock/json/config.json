@@ -3,48 +3,39 @@
   "inputs": [
     {
       "cache": {
-        "active": true,
+        "active": false,
         "newLabel": "Type new value. ",
         "qty": 3
       },
-      "label": "Type your name: ",
+      "label": "path json file",
       "name": "rit_input_text",
       "required": true,
-      "tutorial": "Your prefer name",
+      "tutorial": "set the patch of your json file",
       "type": "text"
     },
     {
-      "default": "false",
-      "items": [
-        "false",
-        "true"
-      ],
-      "label": "Have you ever used Ritchie? ",
-      "name": "rit_input_boolean",
-      "required": false,
-      "tutorial": "Choose one option",
-      "type": "bool"
-    },
-    {
-      "default": "everything",
-      "items": [
-        "daily tasks",
-        "workflows",
-        "toils",
-        "everything"
-      ],
-      "label": "What do you want to automate? ",
-      "name": "rit_input_list",
-      "required": false,
-      "tutorial": "Select what you want to automate with Ritchie",
-      "type": "text"
-    },
-    {
-      "label": "Tell us a secret: ",
-      "name": "rit_input_password",
+      "cache": {
+        "active": false,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "label": "port: ",
+      "name": "rit_input_text",
       "required": true,
-      "tutorial": "Type a secret",
-      "type": "password"
+      "tutorial": "set the port of your endpoint",
+      "type": "text"
+    },
+    {
+      "cache": {
+        "active": false,
+        "newLabel": "route: ",
+        "qty": 3
+      },
+      "label": "path route file",
+      "name": "rit_input_text",
+      "required": true,
+      "tutorial": "set the patch of your endpoint",
+      "type": "text"
     }
   ]
 }
