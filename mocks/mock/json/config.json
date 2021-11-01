@@ -8,7 +8,7 @@
         "qty": 3
       },
       "label": "path json file",
-      "name": "rit_input_text",
+      "name": "rit_input_path",
       "required": true,
       "tutorial": "set the patch of your json file",
       "type": "text"
@@ -20,7 +20,7 @@
         "qty": 3
       },
       "label": "port: ",
-      "name": "rit_input_text",
+      "name": "rit_input_port",
       "required": true,
       "tutorial": "set the port of your endpoint",
       "type": "text"
@@ -32,7 +32,7 @@
         "qty": 3
       },
       "label": "path route file",
-      "name": "rit_input_text",
+      "name": "rit_input_route",
       "required": true,
       "tutorial": "set the patch of your endpoint",
       "type": "text"
